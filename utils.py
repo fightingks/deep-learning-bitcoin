@@ -16,7 +16,7 @@ def plot_p(df):
                       df['price_high'].values,
                       df['price_low'].values,
                       df['price_close'].values,
-                      width=0.6,
+                      #width=0.6,
                       colorup='g',
                       colordown='r',
                       alpha=1)
