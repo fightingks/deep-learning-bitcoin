@@ -12,10 +12,7 @@ def plot_p(df):
     from mplfinance.original_flavor import candlestick_ohlc
     fig, ax = plt.subplots()
     candlestick_ohlc(ax,
-                      df['price_open'].values,
-                      df['price_high'].values,
-                      df['price_low'].values,
-                      df['price_close'].values,
+                      df,
                       width=0.6,
                       colorup='g',
                       colordown='r',
